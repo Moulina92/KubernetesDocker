@@ -110,4 +110,6 @@ systemctl restart docker
    kubeadm reset
    
    rm -rf  $HOME/.kube/config
+   
+   kubeadm token create  --print-join-command
 
